@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Well Soon My Dear Friend</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="floating-hearts"></div>
+    <div class="floating-flowers"></div>
+    
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Envelope with Letter -->
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="letter-header">
+                        <div class="date" id="currentDate"></div>
+                        <h1 class="title">For My Dearest Friend</h1>
+                        <div class="healing-icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-feather"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="letter-content">
+                        <div class="greeting">My Dearest <span class="friend-name" contenteditable="true">Friend, Ga</span>,</div>
+                        
+                        <p class="message">
+                            I was really sorry to hear that you’re not feeling well. It hurts knowing you’re going through this, and I just wish I could be there to look after you.
+
+Please remember, this is only a temporary pause your strength and beautiful spirit will get you through it. You’ve always inspired me with how strong and kind you are, and I know you’ll bounce back soon.
+                        </p>
+                        
+                        <p class="message">
+                           I can’t wait for the day you’re feeling better again so we can talk for hours, laugh like we do, and go out together… maybe visit the museum, stroll around Colon, or just enjoy a simple walk.
+
+Get well soon, my dearest friend. The world (and I) miss your smile. 💛
+                        </p>
+                        
+                        <div class="care-tips">
+                            <h3><i class="fas fa-heartbeat"></i> Gentle Reminders for Healing</h3>
+                            <div class="tips-grid">
+                                <div class="tip-card">
+                                    <i class="fas fa-mug-hot"></i>
+                                    <span>Stay hydrated with warm tea</span>
+                                </div>
+                                <div class="tip-card">
+                                    <i class="fas fa-bed"></i>
+                                    <span>Rest when your body needs it</span>
+                                </div>
+                                <div class="tip-card">
+                                    <i class="fas fa-book-open"></i>
+                                    <span>Read something uplifting</span>
+                                </div>
+                                <div class="tip-card">
+                                    <i class="fas fa-wind"></i>
+                                    <span>Fresh air does wonders</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="message">
+                            I'm always here for you - whether you need someone to talk to, a distraction, or anything at all. Don't hesitate to reach out, day or night.
+                        </p>
+                        
+                        <p class="closing-message">
+                            Sending you infinite warm hugs, healing energy, and all my love. Get well soon, my beautiful friend!
+                        </p>
+                        
+                        <div class="signature">
+                            <p>With all my love,</p>
+                            <div class="signature-name" contenteditable="true">Your Friend, Weeee</div>
+                        </div>
+                    </div>
+                    
+                    <div class="letter-footer">
+                        <div class="get-well-soon">Get Well Soon!</div>
+                        <div class="decoration">
+                            <i class="fas fa-spa"></i>
+                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Interactive Elements -->
+        <div class="interactive-section">
+            <button id="healButton" class="heal-button">
+                <i class="fas fa-magic"></i> Send Healing Energy
+            </button>
+            <button id="flowerButton" class="flower-button">
+                <i class="fas fa-flower"></i> Bloom Some Flowers
+            </button>
+            <button id="musicButton" class="music-button">
+                <i class="fas fa-music"></i> Play Soothing Music
+            </button>
+            
+            <div id="healingMessage" class="healing-message"></div>
+             <audio id="backgroundMusic" loop>
+    <source src="audio/mp3.mp3" type="audio/mpeg">
+</audio>
+        </div>
+        
+      
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
